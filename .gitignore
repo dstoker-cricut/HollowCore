@@ -13,4 +13,5 @@ xcuserdata/
 build/
 hollowcoretest
 libhollowcore.a
+/cmake-build-debug
 

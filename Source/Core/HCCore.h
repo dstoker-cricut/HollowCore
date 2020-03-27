@@ -70,8 +70,8 @@ void HCRealPrint(HCReal self, FILE* stream);
 // MARK: - Object Foundation
 //----------------------------------------------------------------------------------------------------------------------------------
 typedef const char* const HCTypeName;
-typedef const struct HCTypeData* HCType;
-typedef const struct HCTypeData {
+typedef struct HCTypeData* HCType;
+typedef struct HCTypeData {
     HCTypeName name;
     HCType ancestor;
 } HCTypeData;

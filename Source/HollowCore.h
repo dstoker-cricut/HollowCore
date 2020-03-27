@@ -9,6 +9,10 @@
 #ifndef HollowCore_h
 #define HollowCore_h
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "Core/HCCore.h"
 #include "Core/HCObject.h"
 #include "Data/HCNumber.h"
@@ -26,5 +30,9 @@
 #include "JSON/HCJSON.h"
 #include "Thread/HCLock.h"
 #include "Thread/HCThread.h"
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* HollowCore_h */

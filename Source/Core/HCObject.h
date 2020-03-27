@@ -19,7 +19,7 @@ typedef HCInteger (*HCObjectHashValueFunction)(HCRef self);
 typedef void (*HCObjectPrintFunction)(HCRef self, FILE* stream);
 typedef void (*HCObjectDestoryFunction)(HCRef self);
 
-typedef const struct HCObjectTypeData {
+typedef struct HCObjectTypeData {
     HCTypeData base;
     HCObjectIsEqualFunction isEqual;
     HCObjectHashValueFunction hashValue;
