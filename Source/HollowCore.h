@@ -30,6 +30,7 @@ extern "C" {
 #include "Graphic/HCPath.h"
 #include "Graphic/HCPath+SVG.h"
 #include "JSON/HCJSON.h"
+#include "Thread/HCCondition.h"
 #include "Thread/HCLock.h"
 #include "Thread/HCThread.h"
 
