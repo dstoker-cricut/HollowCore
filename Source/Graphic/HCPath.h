@@ -37,9 +37,9 @@ typedef struct HCPathElement {
 } HCPathElement;
 
 typedef void (*HCPathIntersectionFunction)(void* context, HCBoolean* continueSearching, HCPathRef path, HCPathRef otherPath, HCPoint point);
-#define HCPathFlatnessCoarse 1.01
-#define HCPathFlatnessNormal 1.001
-#define HCPathFlatnessFine 1.0001
+#define HCPathFlatnessCoarse 1.001
+#define HCPathFlatnessNormal 1.0001
+#define HCPathFlatnessFine 1.00001
 
 //----------------------------------------------------------------------------------------------------------------------------------
 // MARK: - Construction
